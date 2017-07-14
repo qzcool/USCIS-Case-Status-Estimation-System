@@ -6,5 +6,6 @@ Credit to: Linan Qiu, http://linanqiu.github.io/2016/05/24/OPT-I-765-Processing-
 
 
 License
+-------
 
-Released under a BSD (3-clause) license
+Released under a MIT license
