@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+*{
+	font-family: 'Roboto', sans-serif;
+	color:#5C646B;
+}
+
+.container{
+	margin-top: 34px;
+}
+.header{
+	text-align: center;
+	margin-bottom: 40px;
+} 
+
+.header h1{
+	font-weight: bold;
+}
+
+#formControlsText{
+	width: 244px !important;
+	border-color: #969696;
+}
+.btn-toolbar{
+	display:inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+
+form .btn {
+	display: inline-block !important;
+	background-color: #396292 !important;
+	color: white;
+	font-weight: bold;
+	border: none !important;
+}
+
+form .form-header{
+	font-size:19px;
+	margin-top:-15px;
+	margin-bottom:15px;
+}
+.form-group {
+
+    margin: 0 auto;
+    width: 244px;
+}
+
+form .btn-toolbar{
+	margin: 0 auto;
+}
+
+form .header{
+	font-size:18px;
+}

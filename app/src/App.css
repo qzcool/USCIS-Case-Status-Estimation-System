@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.top{
+  height: 65px;
+  width: 100%;
+  background-color: #647A8C;
 }
 
 .App-logo {
@@ -21,4 +23,12 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.footer{
+  height: 20px;
+  width: 100%;
+  background-color: #F3F3F3;
+  position: fixed;  
+  bottom: 0;
 }

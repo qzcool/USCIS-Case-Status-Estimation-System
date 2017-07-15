@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FieldGroup from './FieldGroup.js';
 import {DropdownButton, MenuItem, Panel, ButtonToolbar, Button, Row, Col, Grid} from 'react-bootstrap'
-
+import '../css/form.css';
 class Form extends Component {
 
   constructor(){
@@ -29,20 +29,25 @@ class Form extends Component {
       <Row className="show-grid">
         <Col xs={3} sm={3} md={3}/>
         <Col xs={6} sm={6} md={6}>
-          <Panel header={<h1>Form</h1>}>
+          <Panel>
             <form ref={(input) => this.recipeForm = input} onSubmit={this._handleForm}>
+            <div className="header">
+              <h1>StatEZ</h1>
+              <p>Your US federal applications made easy.</p>
+            </div>
+            <p className="form-header">Check your case status by entering the information below</p>
               <FieldGroup 
                 id="formControlsText"
                 type="text"
-                label="Ticket"
-                placeholder="Enter ticket id"
+                label="Receipt Number"
+                placeholder="Receipt Number ID"
                 inputRef={(input) => this.ticket = input}
               />
                <br/>
               <FieldGroup 
                 id="formControlsText"
                 type="text"
-                label="Email Recieved"
+                label="Date Receipt Number was Received"
                 placeholder="Enter date"
                 inputRef={(input) => this.recievedDate = input}
               />

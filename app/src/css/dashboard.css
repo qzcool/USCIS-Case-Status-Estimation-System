@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+*{
+	font-family: 'Roboto', sans-serif;
+	color:#5C646B;
+}
+
+
+.progress-bar-cont  .progress-bar-danger{
+	background-color:#EE6D3E;
+}
+.progress-bar-cont  .progress-bar-warning{
+	background-color:#F5A623;
+}
+.progress-bar-cont  .progress-bar-success{
+	background-color:#6A9E95;
+}
+.progress-bar-cont{
+	margin-bottom: 10px;
+}
+span{
+	
+	font-weight: bold;
+}
+.header-cont{
+	text-align: center;
+	margin-bottom: 104px;
+	margin-top: 60px;
+}
+.header-cont .ticket{
+	font-size: 21px;
+}
+
+.header-cont h1{
+	color:#ED6C3E;
+	font-weight: bold;
+}
+
+.header-cont p{
+	font-size: 22px;
+}
+.warning-panel{
+	text-align: center;
+	margin-bottom: 110px;
+}
+
+.warning-panel h3{
+	font-weight: bold;
+	color:#F5A523;
+	margin-left: 30px;
+}
+.warning-panel p{
+	text-align: left;
+	width: 704px;
+	margin:0 auto;
+	font-size: 15px;
+}
+
+.info-panel{
+	margin-top: 20px;
+	border:solid 2px;
+	border-radius: 100px;
+	padding-top:25px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 48px;
+	background-color: #F3F8FF;
+	margin-bottom: 150px;
+	border-color:#9B9A9B;
+}
+.info-panel .info-header {
+    text-align: center;
+    width: 501px;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+.info-panel h3{
+	font-weight: bold;
+	color:#333333;
+	font-size: 20px;
+}
+.info-panel h3, .info-panel p{
+	margin-left:3%;
+}
+.form-group input{
+	width: 244px !important;
+	border-color: #969696;
+}
+.btn-toolbar{
+	display:inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+.form-inline{
+	margin-left: 3%;
+	margin-top:26px;
+	margin-bottom: 20px;
+}
+.form-inline .btn{
+	display: inline-block !important;
+	background-color: #396292 !important;
+	color:white;
+	font-weight: bold;
+	border:none !important;
+}
+
+.help-panel{
+	margin-top: 20px;
+	border:solid 2px;
+	border-radius: 50px;
+	padding-left:32px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	display: inline-block;
+	background-color: white;
+	width:27%;
+	margin-right:3%; 
+	margin-left:3%;
+	height: 215px;
+	vertical-align: top;
+	    border-color: #9B9A9B;
+}
+
+.help-panel h3{
+	display: inline-block;
+	font-size: 21px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.help-panel a{
+	color:#959595;
+	text-decoration: underline;
+}
+
+.enroll-user{
+	margin-bottom: 202px;
+	width: 900px;
+	margin:10px auto;
+	text-align: center;
+}
+.enroll-user h1{
+	font-size: 30px;
+	text-align: center;
+
+
+}
+.enroll-user input{
+	width: 500px;
+
+	margin-bottom: 200px;
+
+}
+.enroll-user button{
+	vertical-align: center;
+
+}
